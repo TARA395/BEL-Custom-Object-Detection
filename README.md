@@ -16,3 +16,7 @@ Clone the repository and run the detection script:
 git clone https://github.com/TARA395/BEL-Custom-Object-Detection.git
 cd BEL-Custom-Object-Detection
 python detect.py
+Author
+
+Taraka
+B.Tech Computer Science Engineering
