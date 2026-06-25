@@ -1,0 +1,28 @@
+# animal_dataset.yaml
+# YOLOv8 dataset configuration for the custom animal dataset
+# (Kangaroo, Penguin, Squirrel, Panda, Tiger)
+#
+# Folder structure expected (YOLOv8 finds labels by replacing
+# "\images\" with "\labels\" in the image path - this layout matches
+# that convention exactly):
+#
+# D:\BEL\my_dataset\yolo_data\
+#   images\train\   <- training images
+#   images\val\     <- validation images
+#   labels\train\   <- training labels (.txt) + classes.txt
+#   labels\val\     <- validation labels (.txt) + classes.txt
+
+train: D:/BEL/my_dataset/yolo_data/images/train
+val: D:/BEL/my_dataset/yolo_data/images/val
+
+# number of classes
+nc: 5
+
+# class names - MUST match the index order in your classes.txt exactly:
+# 0 Kangaroo, 1 Penguin, 2 Squirrel, 3 Panda, 4 Tiger
+names:
+  0: Kangaroo
+  1: Penguin
+  2: Squirrel
+  3: Panda
+  4: Tiger
